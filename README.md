@@ -37,3 +37,7 @@ The GitHub Actions deployment workflow targets the existing Cloudflare Pages pro
 
 ## Privacy and copyright
 This repository is public. Do not commit personal answer records, learner identifiers, credentials, private exam scans, or copyrighted source material without permission. Answer progress and OCR cache remain in each learner's browser; they are not uploaded to this repository.
+
+
+## Production configuration refresh
+After changing Cloudflare Pages Production bindings or secrets, trigger a new deployment from the Cloudflare Deployments page or push a new commit to the GitHub `main` branch. The GitHub Actions workflow automatically rebuilds and deploys the site.
