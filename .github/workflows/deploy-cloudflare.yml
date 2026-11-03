@@ -16,5 +16,5 @@ jobs:
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: 52041f21c73cf93558470f1933c51c3f
           command: pages deploy dist --project-name=1103zzzzz
