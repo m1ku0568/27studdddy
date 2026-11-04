@@ -50,6 +50,11 @@ function bindOcrUi() {
   $("#export-ocr").addEventListener("click", exportOcr);
   $("#analyze-btn").addEventListener("click", analyzeRecognizedText);
   $("#export-analysis").addEventListener("click", exportAnalysis);
+  $("#manual-clues").addEventListener("input", () => {
+    const hasText = $("#manual-clues").value.trim().length > 0;
+    const hasOcr = ocrResults.some(result => result && result.ok);
+    $("#analyze-btn").disabled = !(hasText || hasOcr) || isAnalyzing;
+  });
 }
 
 async function sha256(file) {
@@ -211,6 +216,7 @@ async function analyzeRecognizedText() {
 }
 
 function renderAnalysis(data) {
+  const exam = data.examContext || {};
   const fragments = data.recognizedFragments || [];
   const topics = data.topicCandidates || [];
   const drafts = data.quizDraft || [];
@@ -244,6 +250,7 @@ function renderAnalysis(data) {
   ).join("");
   const uncertain = (data.uncertainItems || []).map(item => "<li>" + escapeHtml(item) + "</li>").join("");
   $("#analysis-results").innerHTML =
+    '<section class="analysis-section"><h3>试卷题型与命题形式拟合</h3><p><b>可能模块：</b>' + escapeHtml(exam.likelySection || "暂无法判断") + '</p><p><b>题型特征：</b>' + escapeHtml(exam.questionStyle || "待确认") + '</p><p><b>置信度：</b>' + Math.round(Number(exam.confidence || 0) * 100) + '%</p><p><b>依据：</b>' + escapeHtml((exam.evidence || []).join("；")) + '</p></section>' +
     '<section class="analysis-section"><h3>提取到的文字线索（' + fragments.length + '）</h3><ul>' +
     (fragmentHtml || "<li>没有提取到足够明确的文字线索</li>") + '</ul></section>' +
     '<section class="analysis-section"><h3>候选知识点（' + topics.length + '）</h3>' +
