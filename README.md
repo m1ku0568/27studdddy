@@ -41,3 +41,17 @@ This repository is public. Do not commit personal answer records, learner identi
 
 ## Production configuration refresh
 After changing Cloudflare Pages Production bindings or secrets, trigger a new deployment from the Cloudflare Deployments page or push a new commit to the GitHub `main` branch. The GitHub Actions workflow automatically rebuilds and deploys the site.
+
+
+## Evidence-based topic fitting and quiz drafts
+The image workflow is intentionally split into two stages:
+1. OCR extracts the readable text from each image. The user can edit the extracted text and add manual clues.
+2. `POST /api/analyze` maps those partial clues to candidate syllabus/textbook topics and drafts questions only for evidence-supported topics.
+
+The analysis response separates:
+- recognized fragments (what was actually visible in the OCR text),
+- topic candidates (inferences, each with evidence, alternatives and confidence),
+- textbook mapping (unknown chapter numbers/pages remain null; never fabricate page references),
+- quiz drafts (only generated for topics marked `ready`).
+
+The analysis endpoint uses the same Production `OCR_ACCESS_CODE` secret and Workers AI `AI` binding as the OCR endpoint. It accepts JSON with `subject` and `sourceText`, and returns a structured JSON analysis. Quiz drafts are review material and should not be promoted into the official question bank until checked.
