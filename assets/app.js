@@ -105,6 +105,10 @@ async function recognizeImages() {
   isRecognizing = true;
   $("#recognize-btn").disabled = true;
   $("#export-ocr").disabled = true;
+  $("#analyze-btn").disabled = true;
+  $("#export-analysis").disabled = true;
+  $("#analysis-results").innerHTML = "";
+  analysisData = null;
   ocrResults = [];
   $("#ocr-results").innerHTML = "";
   setOcrProgress(0, files.length, `准备识别 ${files.length} 张图片…`);
@@ -131,6 +135,8 @@ async function recognizeImages() {
   const failed = files.length - success;
   setOcrProgress(files.length, files.length, `完成：成功 ${success} 张，缓存命中 ${cached} 张，失败 ${failed} 张。可编辑识别文本后导出。`);
   $("#export-ocr").disabled = success === 0;
+  $("#analyze-btn").disabled = success === 0;
+  $("#export-analysis").disabled = true;
   $("#recognize-btn").disabled = false;
   isRecognizing = false;
 }
