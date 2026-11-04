@@ -10,18 +10,28 @@
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-<header><div class="wrap"><p class="eyebrow">KAOYAN QUIZ PLATFORM 2.0</p><h1>考研每日训练</h1><p>多科目题库 · 图片批量识别 · 自动判分 · 错题归档</p></div></header>
+<header><div class="wrap"><p class="eyebrow">KAOYAN QUIZ PLATFORM 2.1</p><h1>考研每日训练</h1><p>部分文字提取 · 知识点拟合 · 教材映射 · Quiz 草案</p></div></header>
 <main class="wrap">
   <section class="panel upload-panel">
-    <div class="section-heading"><div><p class="eyebrow dark">IMAGE INTAKE</p><h2>试卷图片识别中心</h2><p class="muted">批量上传 JPG、PNG、WebP；最多20张，每张不超过8MB。</p></div><span class="pill">Workers AI</span></div>
+    <div class="section-heading"><div><p class="eyebrow dark">IMAGE INTAKE</p><h2>试卷图片处理中心</h2><p class="muted">批量上传 JPG、PNG、WebP；最多20张，每张不超过8MB。</p></div><span class="pill">Workers AI</span></div>
     <label class="field-label" for="ocr-code">识别访问口令</label>
-    <input id="ocr-code" type="password" autocomplete="off" placeholder="输入你在 Cloudflare 设置的 OCR_ACCESS_CODE">
+    <input id="ocr-code" type="password" autocomplete="off" placeholder="输入 Cloudflare OCR_ACCESS_CODE">
     <label class="field-label" for="image-files">选择试卷图片</label>
     <input id="image-files" type="file" accept="image/jpeg,image/png,image/webp" multiple>
-    <div class="upload-actions"><button id="recognize-btn" class="primary">开始批量识别</button><button id="clear-ocr" class="secondary">清空结果</button><button id="export-ocr" class="secondary" disabled>导出识别文本</button></div>
+    <div class="upload-actions"><button id="recognize-btn" class="primary">提取可识别文字</button><button id="clear-ocr" class="secondary">清空结果</button><button id="export-ocr" class="secondary" disabled>导出识别文本</button></div>
     <div class="progress"><i id="ocr-progress"></i></div>
-    <p id="ocr-status" class="muted" aria-live="polite">等待上传图片。重复上传过的图片会优先读取本机缓存。</p>
+    <p id="ocr-status" class="muted" aria-live="polite">先提取能确认的文字，不要求一次识别完整。识别结果可手动编辑。</p>
     <div id="ocr-results"></div>
+    <div class="analysis-controls">
+      <label class="field-label" for="analysis-subject">试卷科目</label>
+      <select id="analysis-subject">
+        <option>机械设计基础</option><option>机械原理</option><option>数学二</option><option>其他</option>
+      </select>
+      <p class="muted">机械设计基础默认匹配濮良贵等《机械设计》第十版；不会猜测教材页码。机械原理教材尚未指定。</p>
+      <div class="upload-actions"><button id="analyze-btn" class="primary" disabled>拟合知识点并生成 Quiz 草案</button><button id="export-analysis" class="secondary" disabled>导出分析 JSON</button></div>
+      <p id="analysis-status" class="muted" aria-live="polite">识别完成后，可根据可见文字线索拟合考点；不确定内容会单独标记。</p>
+      <div id="analysis-results"></div>
+    </div>
   </section>
   <section class="toolbar">
     <label for="bank">选择题库</label><select id="bank" aria-label="选择题库"><option>正在加载题库…</option></select>
@@ -40,6 +50,6 @@
   <p id="meta" class="muted" aria-live="polite"></p><div id="error" role="alert"></div>
   <section id="questions" aria-live="polite"></section>
 </main>
-<footer><div class="wrap">答题进度保存在当前浏览器。图片识别结果可导出备份；原始图片不会被网站长期保存。</div></footer>
+<footer><div class="wrap">答题进度保存在当前浏览器。识别结果和知识点分析可导出备份；原始图片不会被网站长期保存。</div></footer>
 <script src="./assets/app.js"></script>
 </body></html>
