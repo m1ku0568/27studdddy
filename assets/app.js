@@ -1,6 +1,6 @@
 const $ = (selector) => document.querySelector(selector);
 let catalog = [], bank = null, answers = {}, filter = "all";
-let ocrResults = [], isRecognizing = false;
+let ocrResults = [], analysisData = null, isRecognizing = false, isAnalyzing = false;
 
 const storageKey = () => `kaoyan-quiz:${bank.date}:${bank.subject}`;
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
@@ -34,14 +34,22 @@ async function init() {
 function bindOcrUi() {
   $("#recognize-btn").addEventListener("click", recognizeImages);
   $("#clear-ocr").addEventListener("click", () => {
-    if (isRecognizing) return;
+    if (isRecognizing || isAnalyzing) return;
     ocrResults = [];
+    analysisData = null;
     $("#ocr-results").innerHTML = "";
-    $("#ocr-status").textContent = "识别结果已清空。本机缓存仍保留，可避免重复识别。";
+    $("#analysis-results").innerHTML = "";
+    $("#manual-clues").value = "";
+    $("#ocr-status").textContent = "识别结果已清空。本机缓存仍保留。";
+    $("#analysis-status").textContent = "等待识别文字或人工补充线索。";
     $("#ocr-progress").style.width = "0%";
     $("#export-ocr").disabled = true;
+    $("#analyze-btn").disabled = true;
+    $("#export-analysis").disabled = true;
   });
   $("#export-ocr").addEventListener("click", exportOcr);
+  $("#analyze-btn").addEventListener("click", analyzeRecognizedText);
+  $("#export-analysis").addEventListener("click", exportAnalysis);
 }
 
 async function sha256(file) {
@@ -113,7 +121,7 @@ async function recognizeImages() {
       }
       completed++;
       setOcrProgress(completed, files.length, `已处理 ${completed}/${files.length} 张：${file.name}`);
-      $("#ocr-results").innerHTML = results.filter(Boolean).map(renderOcrResult).join("");
+      $("#ocr-results").innerHTML = results.map((result,index) => result ? renderOcrResult(result,index) : "").join("");
     }
   };
   await Promise.all(Array.from({length:Math.min(3,files.length)},worker));
@@ -146,6 +154,110 @@ function exportOcr() {
   const blob = new Blob([markdown],{type:"text/markdown;charset=utf-8"});
   const url = URL.createObjectURL(blob), link = document.createElement("a");
   link.href = url; link.download = "试卷图片OCR识别结果.md"; link.click(); URL.revokeObjectURL(url);
+}
+
+function collectOcrText() {
+  const pieces = [];
+  ocrResults.forEach((result,index) => {
+    if (!result || !result.ok) return;
+    const field = document.querySelector('textarea[data-ocr-index="' + index + '"]');
+    const text = field ? field.value.trim() : String(result.transcription || "").trim();
+    if (text) pieces.push("【图片：" + result.filename + "】\\n" + text);
+  });
+  const manual = $("#manual-clues").value.trim();
+  if (manual) pieces.push("【人工补充线索】\\n" + manual);
+  return pieces.join("\\n\\n==========\\n\\n");
+}
+
+async function analyzeRecognizedText() {
+  if (isAnalyzing) return;
+  const sourceText = collectOcrText();
+  const code = $("#ocr-code").value.trim();
+  if (!code) return alert("请先输入 OCR 访问口令。");
+  if (!sourceText) return alert("没有可分析的文字。请先识别图片，或补充可辨认的题干、术语和公式。");
+  isAnalyzing = true;
+  $("#analyze-btn").disabled = true;
+  $("#export-analysis").disabled = true;
+  $("#analysis-status").textContent = "正在匹配试卷线索与教材知识点，并为证据充分的考点生成 Quiz 草案…";
+  $("#analysis-results").innerHTML = "";
+  try {
+    const response = await fetch("./api/analyze", {
+      method:"POST",
+      headers:{"content-type":"application/json","x-ocr-access-code":code},
+      body:JSON.stringify({subject:$("#analysis-subject").value,sourceText:sourceText})
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.error || "知识点分析失败（HTTP " + response.status + "）");
+    analysisData = payload.analysis;
+    renderAnalysis(analysisData);
+    $("#export-analysis").disabled = false;
+    const topics = analysisData.topicCandidates || [];
+    const ready = topics.filter(item => item.status === "ready").length;
+    const review = topics.length - ready;
+    const drafts = (analysisData.quizDraft || []).length;
+    $("#analysis-status").textContent = "分析完成：可用于出题的知识点 " + ready + " 个，待复核 " + review + " 个，Quiz 草案 " + drafts + " 道。请先核对推断，再用于正式题库。";
+  } catch (error) {
+    $("#analysis-status").textContent = "分析失败：" + error.message;
+  } finally {
+    isAnalyzing = false;
+    $("#analyze-btn").disabled = false;
+  }
+}
+
+function renderAnalysis(data) {
+  const fragments = data.recognizedFragments || [];
+  const topics = data.topicCandidates || [];
+  const drafts = data.quizDraft || [];
+  const fragmentHtml = fragments.map(item =>
+    '<li><span class="confidence ' + escapeHtml(item.certainty || "low") + '">' +
+    escapeHtml(item.certainty || "待确认") + '</span> ' + escapeHtml(item.text) +
+    ' <small>' + escapeHtml(item.kind || "") + '</small></li>'
+  ).join("");
+  const topicHtml = topics.map(item => {
+    const mapping = item.textbookMapping || {};
+    const percent = Math.round(Number(item.confidence || 0) * 100);
+    const status = item.status === "ready" ? "证据充分" : "需要复核";
+    return '<article class="topic-card"><div class="ocr-result-head"><b>' + escapeHtml(item.topic) +
+      '</b><span>' + status + ' · ' + percent + '%</span></div><p>' + escapeHtml(item.subtopic || "") +
+      '</p><p><b>推断理由：</b>' + escapeHtml(item.reason || "") +
+      '</p><p><b>原文证据：</b>' + escapeHtml((item.evidence || []).join("；")) +
+      '</p><p><b>教材映射：</b>' + escapeHtml(mapping.book || "待核实") + " · " +
+      escapeHtml(mapping.chapterTitle || "章节待核实") + " · 页码：" +
+      escapeHtml(mapping.page === null || mapping.page === undefined ? "待核实" : mapping.page) +
+      '</p>' + ((item.alternatives || []).length ? '<p><b>其他可能：</b>' + escapeHtml(item.alternatives.join("；")) + '</p>' : "") +
+      '</article>';
+  }).join("");
+  const quizHtml = drafts.map((item,index) =>
+    '<article class="topic-card"><div class="ocr-result-head"><b>草案 ' + (index+1) + " · " +
+    escapeHtml(item.topic) + '</b><span>' + escapeHtml(item.difficulty || "") + '</span></div><p>' +
+    escapeHtml(item.stem) + '</p>' + (item.options || []).map((option,i) =>
+      '<p>' + (letters[i] || (i+1)) + ". " + escapeHtml(option) + '</p>').join("") +
+    '<p><b>参考答案：</b>' + escapeHtml(letters[item.answer] || String(item.answer)) +
+    '</p><p><b>解析：</b>' + escapeHtml(item.explanation || "") +
+    '</p><p class="muted">依据：' + escapeHtml((item.evidence || []).join("；")) + '</p></article>'
+  ).join("");
+  const uncertain = (data.uncertainItems || []).map(item => "<li>" + escapeHtml(item) + "</li>").join("");
+  $("#analysis-results").innerHTML =
+    '<section class="analysis-section"><h3>提取到的文字线索（' + fragments.length + '）</h3><ul>' +
+    (fragmentHtml || "<li>没有提取到足够明确的文字线索</li>") + '</ul></section>' +
+    '<section class="analysis-section"><h3>候选知识点（' + topics.length + '）</h3>' +
+    (topicHtml || "<p>证据不足，暂不推断知识点。请补充文字或重新拍摄局部。</p>") + '</section>' +
+    '<section class="analysis-section"><h3>Quiz 草案（' + drafts.length + '）</h3>' +
+    (quizHtml || "<p>没有证据充分的知识点，因此暂不生成题目。</p>") + '</section>' +
+    '<section class="analysis-section"><h3>待确认内容</h3><ul>' + (uncertain || "<li>无</li>") +
+    '</ul><p><b>覆盖说明：</b>' + escapeHtml(data.coverageNotes || "") + '</p></section>';
+}
+
+function exportAnalysis() {
+  if (!analysisData) return;
+  downloadText(JSON.stringify(analysisData,null,2),"试卷知识点拟合与Quiz草案.json","application/json;charset=utf-8");
+}
+
+function downloadText(text,filename,type) {
+  const url = URL.createObjectURL(new Blob([text],{type:type}));
+  const link = document.createElement("a");
+  link.href = url; link.download = filename; link.click();
+  URL.revokeObjectURL(url);
 }
 
 async function loadBank() {
