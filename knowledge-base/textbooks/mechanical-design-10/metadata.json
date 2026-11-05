@@ -2,10 +2,12 @@
   "id": "md10",
   "title": "机械设计",
   "edition": "第十版",
-  "authors": "濮良贵等",
+  "authors": "濮良贵、陈国定、吴立言",
   "publisher": {
-    "value": "西北工业大学出版社",
-    "status": "user_specified_unverified"
+    "value": "高等教育出版社",
+    "status": "verified_public_bibliography",
+    "isbn": "9787040514216",
+    "publicationYear": 2019
   },
   "fullTextStatus": "not_provided",
   "ingestedPdfPages": 0,
@@ -18,74 +20,121 @@
       "id": "strength-fatigue",
       "title": "机械零件强度、刚度与疲劳",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "threaded-connections",
       "title": "螺纹与螺栓连接",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "keys-splines",
       "title": "键、花键与轴毂连接",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "belt-drive",
       "title": "带传动",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "chain-drive",
       "title": "链传动",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "gear-drive",
       "title": "齿轮传动",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "worm-drive",
       "title": "蜗杆传动",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "rolling-bearings",
       "title": "滚动轴承",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "sliding-bearings",
       "title": "滑动轴承",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "shafts",
       "title": "轴的设计与轴上连接",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "couplings-clutches",
       "title": "联轴器与离合器",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     },
     {
       "id": "transmission-systems",
       "title": "机械传动系统",
       "chapterNumber": null,
-      "printedPages": null
+      "printedPages": null,
+      "status": "topic_group_not_verified_chapter_name"
     }
   ],
-  "notes": "现有索引取材于试卷与学习归档，不是教材全文，不可引用为教材逐页查证。请提供可搜索文字的教材PDF/目录，经本地私有导入后校核教材页码。"
+  "notes": "出版社、ISBN、五篇十八章结构已核对公开图书信息。教材PDF正文尚未提供，因此真实章节标题、印刷页码、教材公式仍需逐页核实。",
+  "isbn": "9787040514216",
+  "partCount": 5,
+  "chapterCount": 18,
+  "verifiedParts": [
+    {
+      "order": 1,
+      "title": "总论"
+    },
+    {
+      "order": 2,
+      "title": "连接"
+    },
+    {
+      "order": 3,
+      "title": "机械传动"
+    },
+    {
+      "order": 4,
+      "title": "轴系零、部件"
+    },
+    {
+      "order": 5,
+      "title": "其他零、部件"
+    }
+  ],
+  "bibliographySources": [
+    {
+      "url": "https://aijiaocai.com/textbook/details?textbook_id=682188",
+      "kind": "textbook_catalog"
+    },
+    {
+      "url": "https://libnlis.ldu.edu.cn/space/searchDetailLocal/m1fef39334a25db7e0380ecc0dd99eefb",
+      "kind": "university_library"
+    }
+  ]
 }

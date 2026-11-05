@@ -1,0 +1,80 @@
+{
+  "edition": 10,
+  "verifiedAt": "public_bibliography_crosscheck",
+  "publisher": "高等教育出版社",
+  "isbn": "9787040514216",
+  "parts": [
+    {
+      "order": 1,
+      "title": "总论"
+    },
+    {
+      "order": 2,
+      "title": "连接"
+    },
+    {
+      "order": 3,
+      "title": "机械传动"
+    },
+    {
+      "order": 4,
+      "title": "轴系零、部件"
+    },
+    {
+      "order": 5,
+      "title": "其他零、部件"
+    }
+  ],
+  "totalChapterCount": 18,
+  "chapterTitlesStatus": "not_full_toc_transcribed",
+  "exactPrintedPagesStatus": "not_checked",
+  "topicToPart": [
+    {
+      "part": 1,
+      "modules": [
+        "strength-fatigue"
+      ]
+    },
+    {
+      "part": 2,
+      "modules": [
+        "threaded-connections",
+        "keys-splines"
+      ]
+    },
+    {
+      "part": 3,
+      "modules": [
+        "belt-drive",
+        "chain-drive",
+        "gear-drive",
+        "worm-drive",
+        "transmission-systems"
+      ]
+    },
+    {
+      "part": 4,
+      "modules": [
+        "shafts",
+        "rolling-bearings",
+        "sliding-bearings",
+        "couplings-clutches"
+      ]
+    },
+    {
+      "part": 5,
+      "modules": []
+    }
+  ],
+  "mappingPolicy": "仅为学科主题导航，不可替代实际章节号或教材印刷页码。",
+  "sources": [
+    {
+      "url": "https://aijiaocai.com/textbook/details?textbook_id=682188",
+      "kind": "textbook_catalog"
+    },
+    {
+      "url": "https://libnlis.ldu.edu.cn/space/searchDetailLocal/m1fef39334a25db7e0380ecc0dd99eefb",
+      "kind": "university_library"
+    }
+  ]
+}

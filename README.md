@@ -55,3 +55,12 @@ The analysis response separates:
 - quiz drafts (only generated for topics marked `ready`).
 
 The analysis endpoint uses the same Production `OCR_ACCESS_CODE` secret and Workers AI `AI` binding as the OCR endpoint. It accepts JSON with `subject` and `sourceText`, and returns a structured JSON analysis. Quiz drafts are review material and should not be promoted into the official question bank until checked.
+
+
+## 结构化教材知识库
+- 知识库：`knowledge-base/`（包含45条试卷考点、15条公式记录、11条易混点）
+- 指定参考教材：濮良贵、陈国定、吴立言《机械设计》第十版（高等教育出版社，2019，ISBN 9787040514216）。
+- 目前尚无教材全文PDF；教材详细页码与章节号待原书核实。
+- 可用命令：`node scripts/knowledge-search.mjs "螺栓 预紧"`
+- 教材本地导入流程：`knowledge-base/textbooks/mechanical-design-10/INGEST.md`
+- 完整教材正文不得提交到此Public仓库。
