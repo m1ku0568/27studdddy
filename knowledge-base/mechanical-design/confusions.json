@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "confusions": [
+    {
+      "id": "MD-CONF-01",
+      "title": "强度与刚度",
+      "note": "强度关注破坏或屈服等承载能力；刚度关注变形大小。高强钢并不必然具有更高弹性模量。",
+      "relatedTopicId": "MD-P5-J01",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-02",
+      "title": "弹性滑动与打滑",
+      "note": "弹性滑动由带的弹性伸缩差异产生；打滑是摩擦能力不足引起的整体相对滑动。",
+      "relatedTopicId": "MD-P5-J05",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-03",
+      "title": "平均应力与应力幅",
+      "note": "平均应力是最大与最小应力的平均；应力幅是二者差值的一半，且常取非负。",
+      "relatedTopicId": "MD-P4-J01",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-04",
+      "title": "齿面接触疲劳与齿根弯曲疲劳",
+      "note": "前者检查接触表面；后者检查齿根，公式与影响因素不可混用。",
+      "relatedTopicId": "MD-P5-J04",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-05",
+      "title": "螺栓抗疲劳与连接防滑",
+      "note": "减少螺栓的变载荷分担比例有利于疲劳；预紧力和接合面摩擦影响防滑，两者目标不同。",
+      "relatedTopicId": "MD-P5-J02",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-06",
+      "title": "滚动轴承L10与平均寿命",
+      "note": "L10对应常用90%可靠度定义，不是样本平均寿命。",
+      "relatedTopicId": "MD-P4-J13",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-07",
+      "title": "联轴器与离合器",
+      "note": "联轴器通常工作中保持连接；离合器可按操作要求接合与分离。",
+      "relatedTopicId": "MD-P5-J13",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-08",
+      "title": "轴肩圆角与孔口倒角",
+      "note": "减小应力集中需考虑圆角；装配定位需避免圆角与轮毂孔端干涉。",
+      "relatedTopicId": "MD-P4-J10",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-09",
+      "title": "链传动多边形效应与链条磨损",
+      "note": "多边形效应导致速度周期变化；磨损导致节距变化，风险机制不同。",
+      "relatedTopicId": "MD-P4-J07",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-10",
+      "title": "蜗杆和蜗轮强度重点",
+      "note": "普通蜗杆副常特别重视蜗轮齿的接触与弯曲强度，同时按工况检查蜗杆刚度等。",
+      "relatedTopicId": "MD-P4-J15",
+      "status": "study_notes_pending_textbook_crosscheck"
+    },
+    {
+      "id": "MD-CONF-11",
+      "title": "滑动轴承油温与发热严重程度",
+      "note": "进油温度不能单独证明发热多少，需要进出油温差、流量和热平衡。",
+      "relatedTopicId": "MD-P4-J11",
+      "status": "study_notes_pending_textbook_crosscheck"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "source": "archived_quiz_explanations_not_book_pages",
+  "formulas": [
+    {
+      "id": "FORM-P4-J01",
+      "topicId": "MD-P4-J01",
+      "title": "钢材强度与应力集中敏感性",
+      "expressions": [
+        "Kₜ = σ局部最大 / σ名义",
+        "q = (K_f − 1)/(Kₜ − 1)；K_f = 1 + q(Kₜ − 1)"
+      ],
+      "symbols": "Kₜ：理论应力集中系数；K_f：疲劳应力集中系数；q：缺口敏感系数，均无量纲。两种σ用同一单位，如MPa。",
+      "conditions": "通常的线弹性理论应力集中和常用钢材疲劳比较；q的反算式要求Kₜ≠1。是教材中的一般趋势，不是所有钢种、所有微观组织均无例外。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 1
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J02",
+      "topicId": "MD-P4-J02",
+      "title": "摩擦带传动的弹性滑动",
+      "expressions": [
+        "ε₁ = F₁/(EA)，ε₂ = F₂/(EA)",
+        "ε₁ − ε₂ = (F₁ − F₂)/(EA) > 0（传递正功率时）"
+      ],
+      "symbols": "F₁、F₂：紧边和松边拉力，N；E：带材料等效弹性模量，N/mm²；A：截面积，mm²；ε：纵向应变，无量纲。",
+      "conditions": "本题是普通摩擦带，不是同步齿形带；用线弹性近似解释机理，不把它当作精确滑动率计算。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 2
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J03",
+      "topicId": "MD-P4-J03",
+      "title": "细牙螺纹与自锁条件",
+      "expressions": [
+        "S = zP；单线螺纹z = 1，所以S = P",
+        "tan λ = S/(πd₂)",
+        "fᵥ = f/cos α；tan ρᵥ = fᵥ",
+        "自锁条件：λ < ρᵥ，即tan λ < fᵥ"
+      ],
+      "symbols": "S：导程；P：螺距；d₂：中径，三者用相同长度单位；z：线数；λ：升角；α：牙型半角；f：摩擦系数；fᵥ、ρᵥ：当量摩擦系数和角。",
+      "conditions": "普通滑动螺纹的简化静态自锁模型。不是滚珠丝杠模型；有静态自锁也不等于在振动中永不松动。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 3
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J04",
+      "topicId": "MD-P4-J04",
+      "title": "疲劳损伤累积：Miner线性模型",
+      "expressions": [
+        "Dᵢ = nᵢ/Nᵢ；D = Σ(nᵢ/Nᵢ)",
+        "D = 2×10⁴/(1×10⁵) + 6×10⁴/(2×10⁵) = 0.20 + 0.30 = 0.50",
+        "Miner理想临界：D ≈ 1"
+      ],
+      "symbols": "nᵢ：第i级应力下已发生的循环数；Nᵢ：该级应力单独作用至疲劳破坏的循环数。Dᵢ、D无量纲。",
+      "conditions": "题设指定Miner线性损伤模型；Nᵢ必须与相应应力水平相匹配。D=1是模型准则，不代表所有真实零件都精确在此破坏。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 4
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J05",
+      "topicId": "MD-P4-J05",
+      "title": "普通平键的工作面与主要失效",
+      "expressions": [
+        "Fₜ = 2T/d",
+        "A挤压 = k·l；σₚ = Fₜ/(k·l) = 2T/(dkl) ≤ [σₚ]",
+        "常用简化k ≈ h/2：σₚ ≈ 4T/(dhl)",
+        "相关剪应力：τ = Fₜ/(bl) = 2T/(dbl)"
+      ],
+      "symbols": "T：转矩，N·mm；d：轴径，mm；b、h：键宽、键高，mm；l：有效工作长度，mm；k：工作高度，mm；应力单位N/mm²=MPa。",
+      "conditions": "普通平键静连接、均布名义载荷的教材近似；k和l应按键型及实际接触确定。这里用公式解释受力，不新增键长选取的考查。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 5
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J06",
+      "topicId": "MD-P4-J06",
+      "title": "闭式齿轮常见点蚀起始部位",
+      "expressions": [
+        "接触疲劳校核的基本形式：σ_H ≤ [σ_H]",
+        "简化赫兹线接触：p₀ = √(FₙE′/(πlR′))",
+        "1/E′ = (1−ν₁²)/E₁ + (1−ν₂²)/E₂；1/R′ = 1/R₁ + 1/R₂（外接触）"
+      ],
+      "symbols": "σ_H、p₀：接触应力，MPa；Fₙ：法向载荷，N；l：接触线长度，mm；R′：等效曲率半径，mm；E′、Eᵢ：弹性模量，MPa；νᵢ：泊松比。",
+      "conditions": "赫兹式只用于解释接触疲劳机理的理想弹性线接触，不代替实际齿轮全套系数计算。本题只考常见部位。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 6
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J07",
+      "topicId": "MD-P4-J07",
+      "title": "链条铰链磨损与脱链",
+      "expressions": [
+        "链轮多边形几何：p = 2R sin(π/z)",
+        "理想爬高近似：ΔR = Δp/[2 sin(π/z)]"
+      ],
+      "symbols": "p：原节距；Δp：受拉后实际节距增量；R：原节圆半径；ΔR：相应啮合半径增加量，均用mm；z：齿数。",
+      "conditions": "用同一条链、同一Δp作几何比较；忽略实际齿形及间隙细节，仅说明磨损爬高趋势，不能用于精确预测跳链时刻。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 7
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J08",
+      "topicId": "MD-P4-J08",
+      "title": "单万向联轴器的非等速性",
+      "expressions": [
+        "一种角度起点约定下：ω₂/ω₁ = cosα/[1−sin²α·sin²θ₁]",
+        "最小角速度比 = cosα；最大角速度比 = 1/cosα",
+        "α=0时：ω₂/ω₁=1（本题已排除该特例）"
+      ],
+      "symbols": "α：两轴夹角；θ₁：按所声明起点测量的主动轴转角；ω₁、ω₂：角速度，同用rad/s。",
+      "conditions": "理想单十字轴万向联轴器、夹角固定、忽略弹性及间隙。转角起点不同可能使分母写成cos²θ，非等速性质及极值不变。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 8
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J09",
+      "topicId": "MD-P4-J09",
+      "title": "斜齿轮副的许用接触应力",
+      "expressions": [
+        "单轮简化许用值：[σ_Hᵢ] = Z_NTᵢ·σ_Hlimᵢ/S_Hᵢ（i=1,2）",
+        "两轮分别列出：[σ_H1]、[σ_H2]；设计取值须按采用教材的公式与限制确定，不能未经核对就任取平均。"
+      ],
+      "symbols": "σ_Hlimᵢ：各轮接触疲劳极限；Z_NTᵢ：接触寿命系数；S_Hᵢ：安全系数；带方括号者为许用应力，单位MPa。",
+      "conditions": "本题仅考“斜齿轮设计需综合考虑两轮许用接触应力”，不把某个平均值公式推广为无条件通用规则。具体取值及附加限制需查用户指定教材。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 9
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J10",
+      "topicId": "MD-P4-J10",
+      "title": "定位轴肩圆角与孔端倒角",
+      "expressions": [
+        "一般教材结构条件：r < c（c为孔口倒角高度，常见45°倒角）",
+        "相应圆角避让比较：r < R（同类简化比较）"
+      ],
+      "symbols": "r：轴肩过渡圆角半径；c：轮毂孔端倒角高度；R：轮毂孔端相应避让圆角半径，均用mm。",
+      "conditions": "普通直接端面定位的教学规则；实际设计要结合完整轮廓、公差和装配尺寸检查，不仅凭一个数值代替几何干涉分析。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 10
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J11",
+      "topicId": "MD-P4-J11",
+      "title": "动压滑动轴承热平衡",
+      "expressions": [
+        "油带走的热功率：Q̇油 = ṁcₚ(t_out−t_in) = ρqᵥcₚ(t_out−t_in)",
+        "稳态简化热平衡：P_f = Q̇油 + Q̇壳体",
+        "摩擦功耗：P_f = M_fω"
+      ],
+      "symbols": "ṁ：质量流量，kg/s；ρ：油密度，kg/m³；qᵥ：体积流量，m³/s；cₚ：比热，J/(kg·K)；温差用K或℃差值；热功率用W；M_f用N·m，ω用rad/s。",
+      "conditions": "稳态能量收支的简化模型；还有其他热源或传热通道时需一并计入。不能仅凭本题一个温度判断运行是否安全。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 11
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J12",
+      "topicId": "MD-P4-J12",
+      "title": "滚子链附加动载荷与转速",
+      "expressions": [
+        "理想多边形模型：v = ωR cosθ",
+        "匀速链轮、单个啮合区间内：a = dv/dt = −ω²R sinθ",
+        "对应惯性力大小：F_in = m_eq|a|"
+      ],
+      "symbols": "ω：链轮角速度，rad/s；R：节圆半径，m；θ：该链节在一个啮合区间内的几何角；v用m/s，a用m/s²；m_eq为等效运动质量，kg。",
+      "conditions": "公式只解释理想多边形造成的速度波动和惯性，不包括所有弹性振动及啮合冲击。实际低速动载荷有时可忽略，但“忽略”不同于“没有”。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 12
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J13",
+      "topicId": "MD-P4-J13",
+      "title": "基本额定寿命L10的统计含义",
+      "expressions": [
+        "R(L₁₀)=0.90；F_fail(L₁₀)=0.10",
+        "L₁₀ = (C/P)^p（单位：10⁶转）",
+        "L₁₀h = 10⁶/(60n) · (C/P)^p；球轴承p=3，滚子轴承p=10/3"
+      ],
+      "symbols": "R：可靠度；F_fail：累计疲劳失效概率；C：基本额定动载荷；P：当量动载荷，C、P用相同力单位；n用r/min，L₁₀h用h。",
+      "conditions": "统计对象是相同型号、相同条件下的滚动疲劳寿命。实际寿命还会受润滑、污染、安装等影响。式中的p为寿命指数，不是压力。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 13
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J14",
+      "topicId": "MD-P4-J14",
+      "title": "滚动轴承静安全系数",
+      "expressions": [
+        "s₀ = C₀/P₀",
+        "静载选型写法：C₀ ≥ s₀,req·P₀"
+      ],
+      "symbols": "C₀：基本额定静载荷；P₀：当量静载荷，使用相同力单位；s₀和要求值s₀,req均无量纲。",
+      "conditions": "具体要求值须查相应轴承厂家/设计依据，结合载荷冲击、旋转精度和可接受永久变形等条件。不可把“小于1可能允许”当作普遍推荐。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 14
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    },
+    {
+      "id": "FORM-P4-J15",
+      "topicId": "MD-P4-J15",
+      "title": "普通蜗杆传动的强度计算对象",
+      "expressions": [
+        "蜗轮齿面接触强度：σ_H2 ≤ [σ_H2]",
+        "蜗轮齿根弯曲强度：σ_F2 ≤ [σ_F2]",
+        "蜗杆弯曲刚度的通用校核形式：y_max ≤ [y]"
+      ],
+      "symbols": "下标2表示蜗轮；σ_H2、σ_F2分别为接触及齿根弯曲应力，MPa；方括号表示许用值；y_max和[y]为最大挠度及允许挠度，长度单位一致。",
+      "conditions": "限题设常见材料与普通蜗杆传动；特殊材料、结构和工况需另行分析。本题只考计算对象与边界，不要求新增完整蜗杆设计数值计算。",
+      "source": {
+        "kind": "prior_quiz_explanation_archive",
+        "paper": "机械设计入学考试试题4",
+        "originalNumber": 15
+      },
+      "status": "study_formula_from_archive_requires_textbook_verification",
+      "verifiedAgainstTextbook": false
+    }
+  ]
+}

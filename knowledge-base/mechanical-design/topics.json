@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 1,
+  "source": "archived_exam_topic_mappings",
+  "topics": [
+    {
+      "id": "MD-P5-J01",
+      "title": "零件尺寸由刚度条件决定时，材料选择与刚度",
+      "scope": "弹性模量、强度与刚度的区别；尺寸受刚度约束后不能仅靠高强度材料提高刚度",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核",
+        "弹性模量",
+        "挠度",
+        "变形"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 1,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J02",
+      "title": "轴向载荷普通螺栓连接的预紧力与抗疲劳强度",
+      "scope": "预紧力、工作载荷、螺栓载荷幅及疲劳强度",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核",
+        "轴向载荷",
+        "预紧力",
+        "连接刚度",
+        "变载荷"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 2,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J03",
+      "title": "花键连接承载能力",
+      "scope": "花键侧面挤压强度及承载能力计算",
+      "module": "keys-splines",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 3,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J04",
+      "title": "齿轮弯曲强度主要参数",
+      "scope": "模数对齿根弯曲强度的影响",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核",
+        "齿根弯曲",
+        "齿面接触",
+        "模数",
+        "齿数"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 4,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J05",
+      "title": "带传动弹性滑动",
+      "scope": "弹性滑动的成因、传动比误差、效率与磨损；弹性滑动与打滑区别",
+      "module": "belt-drive",
+      "aliases": [
+        "摩擦带",
+        "紧边",
+        "松边",
+        "滑动"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 5,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J06",
+      "title": "齿轮硬齿面与软齿面",
+      "scope": "热处理与齿面硬度分类",
+      "module": "gear-drive",
+      "aliases": [
+        "齿根弯曲",
+        "齿面接触",
+        "模数",
+        "齿数"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 6,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J07",
+      "title": "带传动在传动系统中的级位",
+      "scope": "带传动布置在高速级/低速级与转矩、转速的关系",
+      "module": "transmission-systems",
+      "aliases": [
+        "摩擦带",
+        "紧边",
+        "松边",
+        "滑动"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 7,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J08",
+      "title": "链传动偶数链节的接头形式",
+      "scope": "偶数链节与过渡链节/接头形式",
+      "module": "chain-drive",
+      "aliases": [
+        "链节距",
+        "滚子链",
+        "链轮",
+        "多边形效应"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 8,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J09",
+      "title": "蜗杆分度圆直径、效率与刚度",
+      "scope": "模数和蜗杆头数一定时，增大蜗杆分度圆直径对效率、刚度的影响",
+      "module": "strength-fatigue",
+      "aliases": [
+        "弹性模量",
+        "挠度",
+        "变形",
+        "蜗轮",
+        "传动比",
+        "蜗杆直径"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 9,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J10",
+      "title": "普通平键A/B/C型及轴向承载",
+      "scope": "平键端部形式、键连接传递转矩与轴向定位的区别",
+      "module": "keys-splines",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 10,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J11",
+      "title": "滑动轴承宽径比与承载能力",
+      "scope": "宽径比B/d对滑动轴承承载能力的影响",
+      "module": "sliding-bearings",
+      "aliases": [
+        "油膜",
+        "pv",
+        "润滑",
+        "热平衡"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 11,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J12",
+      "title": "滚动轴承轴向预紧的目的",
+      "scope": "轴向预紧对刚度、游隙、承载与精度的作用",
+      "module": "rolling-bearings",
+      "aliases": [
+        "弹性模量",
+        "挠度",
+        "变形",
+        "当量动载荷",
+        "额定寿命",
+        "L10",
+        "接触角"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 12,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J13",
+      "title": "联轴器与离合器",
+      "scope": "两轴连接、分离能力及工作状态差异",
+      "module": "couplings-clutches",
+      "aliases": [
+        "不等速",
+        "轴线偏移",
+        "柔性连接"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 13,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J14",
+      "title": "按扭转强度初估轴径",
+      "scope": "轴的初步直径估算与弯矩影响、后续弯扭合成校核",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 14,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-J15",
+      "title": "深沟球轴承接触角与载荷能力",
+      "scope": "公称接触角α=0与实际承受径向/轴向联合载荷的能力",
+      "module": "rolling-bearings",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-1 判断题",
+        "originalNumber": 15,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C01",
+      "title": "尺寸效应与疲劳极限",
+      "scope": "零件尺寸增大时疲劳极限的尺寸影响系数/疲劳极限变化",
+      "module": "strength-fatigue",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 1,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C02",
+      "title": "薄壁零件螺纹连接",
+      "scope": "薄壁零件连接适用螺纹牙型的选择",
+      "module": "threaded-connections",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 2,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C03",
+      "title": "切向键连接斜度",
+      "scope": "楔键斜度设置的表面位置",
+      "module": "keys-splines",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 3,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C04",
+      "title": "轮毂轴向移动的键连接",
+      "scope": "轮毂需沿轴作小距离轴向移动时的导向键连接",
+      "module": "keys-splines",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 4,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C05",
+      "title": "紧螺栓强度公式中的1.3",
+      "scope": "拧紧时螺栓同时承受拉伸与扭转的影响/拧紧系数",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核",
+        "轴向载荷",
+        "预紧力",
+        "连接刚度",
+        "变载荷"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 5,
+        "printedPage": 20,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C06",
+      "title": "松连接与紧连接的区别",
+      "scope": "螺栓螺纹部分在松连接与紧连接中的受力差异；照片选项为拉伸、扭转、剪切、弯曲",
+      "module": "threaded-connections",
+      "aliases": [
+        "轴向载荷",
+        "预紧力",
+        "连接刚度",
+        "变载荷"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 6,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C07",
+      "title": "零件工作安全系数",
+      "scope": "极限应力与工作应力的比值及定义",
+      "module": "strength-fatigue",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 7,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C08",
+      "title": "带传动紧边/松边拉力",
+      "scope": "F1、F2、有效圆周力Fe、欧拉关系及初拉力关系",
+      "module": "belt-drive",
+      "aliases": [
+        "摩擦带",
+        "紧边",
+        "松边",
+        "滑动"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 8,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C09",
+      "title": "45钢硬齿面直齿圆柱齿轮加工工艺",
+      "scope": "滚齿、热处理（表面淬火等）、磨齿的合理工艺顺序",
+      "module": "gear-drive",
+      "aliases": [
+        "齿根弯曲",
+        "齿面接触",
+        "模数",
+        "齿数"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 9,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C10",
+      "title": "轴承合金在滑动轴承中的使用部位",
+      "scope": "轴瓦/轴承衬等部位与轴承座的区别",
+      "module": "sliding-bearings",
+      "aliases": [
+        "油膜",
+        "pv",
+        "润滑",
+        "热平衡"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 10,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C11",
+      "title": "多盘摩擦离合器内摩擦盘制成碟形",
+      "scope": "碟形摩擦盘的弹性、接触压力或结合性能作用；具体答案待批改核对",
+      "module": "couplings-clutches",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 11,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C12",
+      "title": "闭式蜗杆传动热平衡",
+      "scope": "热平衡计算目的及温升过高导致润滑油变质/润滑条件恶化",
+      "module": "worm-drive",
+      "aliases": [
+        "蜗轮",
+        "传动比",
+        "蜗杆直径"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 12,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C13",
+      "title": "滚动轴承润滑方式选择参数",
+      "scope": "转速、当量动载荷、圆周速度及dn值等参数辨析；原题选项为n、P、v、dn",
+      "module": "rolling-bearings",
+      "aliases": [
+        "当量动载荷",
+        "额定寿命",
+        "L10",
+        "接触角"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 13,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C14",
+      "title": "过盈连接件在轴上的应力集中位置",
+      "scope": "轮毂端部附近的轴表面应力集中位置",
+      "module": "strength-fatigue",
+      "aliases": [],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 14,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P5-C15",
+      "title": "非液体摩擦滑动轴承主要失效形式",
+      "scope": "磨损与胶合、塑性变形、点蚀、轴承合金开裂等失效形式辨析",
+      "module": "sliding-bearings",
+      "aliases": [
+        "油膜",
+        "pv",
+        "润滑",
+        "热平衡"
+      ],
+      "source": {
+        "kind": "archived_exam_topic_map",
+        "paper": "机械设计入学考试试题5",
+        "section": "5-2 单项选择题",
+        "originalNumber": 15,
+        "printedPage": 21,
+        "sourceStatus": "mapped_from_prior_archive_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J01",
+      "title": "钢材强度与应力集中敏感性",
+      "scope": "相同槽形对应近似相同的理论应力集中系数，但常用钢材强度提高时，通常对缺口更敏感。不要把几何造成的局部应力放大与材料对缺口的疲劳反应混为一谈。",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 1,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J02",
+      "title": "摩擦带传动的弹性滑动",
+      "scope": "弹性滑动来自带的弹性变形差异：紧边拉力大、伸得多，松边拉力小、伸得少。带在绕轮过程中伸长或回缩，产生微小相对滑动；它不同于过载造成的宏观打滑。",
+      "module": "belt-drive",
+      "aliases": [
+        "摩擦带",
+        "紧边",
+        "松边",
+        "滑动"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 2,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J03",
+      "title": "细牙螺纹与自锁条件",
+      "scope": "单线螺纹的导程等于螺距。细牙的螺距小，螺旋升角通常更小，更容易满足升角小于当量摩擦角的自锁条件。",
+      "module": "threaded-connections",
+      "aliases": [],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 3,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J04",
+      "title": "疲劳损伤累积：Miner线性模型",
+      "scope": "每一级损伤用“已经历循环数÷该级独立疲劳寿命”计算，再相加：0.2+0.3=0.5。不同应力下的寿命不同，不能先把循环数混在一起再除同一个寿命。",
+      "module": "strength-fatigue",
+      "aliases": [],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 4,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J05",
+      "title": "普通平键的工作面与主要失效",
+      "scope": "普通平键通过侧面与轴槽、轮毂槽的接触挤压来传递转矩。常见静连接主要校核较弱工作面的挤压强度；键截面也受剪切，但不能因此把剪断一概当作主要失效。",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 5,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J06",
+      "title": "闭式齿轮常见点蚀起始部位",
+      "scope": "教材中的常见点蚀区域是节线附近偏齿根一侧的齿面。它是啮合接触表面的疲劳问题，不是齿根过渡圆角处的弯曲疲劳断齿。",
+      "module": "strength-fatigue",
+      "aliases": [
+        "齿根弯曲",
+        "齿面接触",
+        "模数",
+        "齿数"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 6,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J07",
+      "title": "链条铰链磨损与脱链",
+      "scope": "铰链磨损增大了间隙，受拉时实际节距变大。相同的节距增量在齿数较多的大链轮上对应更大的向齿顶爬高量，因此教材中这类磨损脱链通常先关注大链轮。",
+      "module": "chain-drive",
+      "aliases": [],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 7,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J08",
+      "title": "单万向联轴器的非等速性",
+      "scope": "单万向联轴器在非零轴间角下不是等速传动：从动轴一会儿快、一会儿慢。两轴完整转一周的平均转速相同，但瞬时角速度不相同。",
+      "module": "couplings-clutches",
+      "aliases": [
+        "不等速",
+        "轴线偏移",
+        "柔性连接"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 8,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J09",
+      "title": "斜齿轮副的许用接触应力",
+      "scope": "实际接触应力与许用接触应力不是同一个量。许用值与各轮的材料、热处理、寿命等有关；本卷斜齿轮简化取值要结合大、小两轮，不能只顾其中一轮。",
+      "module": "gear-drive",
+      "aliases": [
+        "齿根弯曲",
+        "齿面接触",
+        "模数",
+        "齿数"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 9,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J10",
+      "title": "定位轴肩圆角与孔端倒角",
+      "scope": "轴肩圆角虽然有助于减小应力集中，但过大可能顶住轮毂孔口，使轮毂端面无法贴紧定位面。普通直接靠肩定位要先保证圆角被孔端倒角或圆角让开。",
+      "module": "strength-fatigue",
+      "aliases": [],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 10,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J11",
+      "title": "动压滑动轴承热平衡",
+      "scope": "低进油温度只说明供入的油较冷，不能直接说明轴承产生了多少热。需要区分进油温度、出油温度、温升及摩擦功耗，并结合热平衡分析。",
+      "module": "sliding-bearings",
+      "aliases": [
+        "油膜",
+        "pv",
+        "润滑",
+        "热平衡"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 11,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J12",
+      "title": "滚子链附加动载荷与转速",
+      "scope": "链条绕链轮时形成多边形，匀速链轮仍可能使链速周期变化。速度较低会减弱惯性和啮合冲击，并不等于从机理上完全消除附加动载荷。",
+      "module": "chain-drive",
+      "aliases": [],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 12,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J13",
+      "title": "基本额定寿命L10的统计含义",
+      "scope": "L₁₀是对应90%可靠度、10%累计疲劳失效概率的寿命指标，不是每个轴承的确定寿命，也不是平均寿命。把概率说法与对每个实物的保证区分开。",
+      "module": "rolling-bearings",
+      "aliases": [],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 13,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J14",
+      "title": "滚动轴承静安全系数",
+      "scope": "轴承静安全系数采用规定接触变形意义下的基本额定静载荷C₀作为基准，不是以断裂载荷为基准。根据运行平稳性和允许变形等要求，有些场合可取小于1；不能一概而论。",
+      "module": "rolling-bearings",
+      "aliases": [
+        "当量动载荷",
+        "额定寿命",
+        "L10",
+        "接触角"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 14,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    },
+    {
+      "id": "MD-P4-J15",
+      "title": "普通蜗杆传动的强度计算对象",
+      "scope": "常见钢蜗杆与青铜蜗轮配对中，蜗轮材料和齿形使其通常成为轮齿强度计算的重点。但“通常重点算蜗轮”不等于“蜗杆永远不用检查”，细长蜗杆尤其要关注刚度。",
+      "module": "strength-fatigue",
+      "aliases": [
+        "静强度",
+        "疲劳",
+        "屈服",
+        "极限应力",
+        "强度校核",
+        "弹性模量",
+        "挠度",
+        "变形",
+        "蜗轮",
+        "传动比"
+      ],
+      "source": {
+        "kind": "archived_graded_quiz_mapping",
+        "paper": "机械设计入学考试试题4",
+        "section": "4-1 是非题",
+        "originalNumber": 15,
+        "printedPage": 16,
+        "sourceStatus": "prior_archive_mapping_not_reverified_this_run"
+      },
+      "textbook": {
+        "id": "md10",
+        "title": "机械设计",
+        "edition": "第十版",
+        "authors": "濮良贵等",
+        "publisher": "西北工业大学出版社（用户提供，尚未书目校核）",
+        "chapterNumber": null,
+        "printedPage": null,
+        "verifiedAgainstTextbook": false
+      },
+      "status": "exam_topic_mapped_textbook_pending"
+    }
+  ]
+}

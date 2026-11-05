@@ -1,0 +1,91 @@
+{
+  "id": "md10",
+  "title": "机械设计",
+  "edition": "第十版",
+  "authors": "濮良贵等",
+  "publisher": {
+    "value": "西北工业大学出版社",
+    "status": "user_specified_unverified"
+  },
+  "fullTextStatus": "not_provided",
+  "ingestedPdfPages": 0,
+  "ingestedTextChunks": 0,
+  "exactChapterNumbersVerified": false,
+  "exactPrintedPagesVerified": false,
+  "catalogType": "topic_based_provisional_not_original_toc",
+  "thematicModules": [
+    {
+      "id": "strength-fatigue",
+      "title": "机械零件强度、刚度与疲劳",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "threaded-connections",
+      "title": "螺纹与螺栓连接",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "keys-splines",
+      "title": "键、花键与轴毂连接",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "belt-drive",
+      "title": "带传动",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "chain-drive",
+      "title": "链传动",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "gear-drive",
+      "title": "齿轮传动",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "worm-drive",
+      "title": "蜗杆传动",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "rolling-bearings",
+      "title": "滚动轴承",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "sliding-bearings",
+      "title": "滑动轴承",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "shafts",
+      "title": "轴的设计与轴上连接",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "couplings-clutches",
+      "title": "联轴器与离合器",
+      "chapterNumber": null,
+      "printedPages": null
+    },
+    {
+      "id": "transmission-systems",
+      "title": "机械传动系统",
+      "chapterNumber": null,
+      "printedPages": null
+    }
+  ],
+  "notes": "现有索引取材于试卷与学习归档，不是教材全文，不可引用为教材逐页查证。请提供可搜索文字的教材PDF/目录，经本地私有导入后校核教材页码。"
+}
