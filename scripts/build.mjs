@@ -3,7 +3,7 @@ import path from "node:path";
 const out = "dist";
 await rm(out, {recursive:true, force:true});
 await mkdir(out, {recursive:true});
-for (const item of ["index.html", "assets", "data"]) {
+for (const item of ["index.html", "assets", "data", "study"]) {
   await cp(item, path.join(out, item), {recursive:true});
 }
 async function findBanks(dir) {
