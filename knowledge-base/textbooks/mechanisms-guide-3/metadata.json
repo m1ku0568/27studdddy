@@ -1,0 +1,32 @@
+{
+  "id": "mp3",
+  "title": "机械原理学习指导",
+  "edition": 3,
+  "editor": "申永胜",
+  "publisher": "清华大学出版社",
+  "publicationYear": 2015,
+  "isbn": "9787302376804",
+  "evidencePdfPages": [
+    2,
+    3,
+    7,
+    8,
+    9,
+    170
+  ],
+  "source": "用户提供的扫描件",
+  "catalog": "page-index.json",
+  "exerciseIndex": "exercises.json",
+  "verifiedItems": "reviewed-items.json",
+  "scanPdfPages": 170,
+  "embeddedTextPages": 0,
+  "privateOcrDraftPages": 166,
+  "visuallyCheckedBlankPages": [
+    11,
+    111,
+    113,
+    141
+  ],
+  "publicFullTextPages": 0,
+  "ocrArchive": "机械原理学习指导第3版_逐页OCR检索.jsonl"
+}

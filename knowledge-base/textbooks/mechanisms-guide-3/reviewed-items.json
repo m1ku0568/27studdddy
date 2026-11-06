@@ -1,0 +1,222 @@
+[
+  {
+    "id": "mp3-01",
+    "kind": "formula",
+    "title": "平面机构自由度",
+    "summary": "常用式 F = 3n − 2p₅ − p₄。n 为活动构件数；p₅、p₄ 分别为平面低副数和高副数。计数时须处理复合铰链、局部自由度与虚约束。",
+    "printedPage": 7,
+    "pdfPage": 16,
+    "locator": "1.2 自由度计算公式",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-02",
+    "kind": "formula",
+    "title": "复合铰链",
+    "summary": "同一处以转动副连接 k 个构件，计 k − 1 个转动副。",
+    "printedPage": 8,
+    "pdfPage": 17,
+    "locator": "图1.5",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-03",
+    "kind": "concept",
+    "title": "局部自由度与虚约束",
+    "summary": "滚子绕自身中心转动属于局部自由度；计入活动构件和运动副后，应扣除该局部自由度。虚约束则是重复施加、没有新增约束效果的约束。",
+    "printedPage": 8,
+    "pdfPage": 17,
+    "locator": "图1.6",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-04",
+    "kind": "example",
+    "title": "例1.1 蒸汽机配气机构",
+    "summary": "从实际构件关系画运动简图，识别机架与活动构件，求自由度并分析杆组及机构级别。",
+    "printedPage": 11,
+    "pdfPage": 20,
+    "locator": "1.3 例1.1；图1.11",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-05",
+    "kind": "example",
+    "title": "例2.1 铰链四杆机构的杆长条件",
+    "summary": "固定 AD，改变 AB 的长度，分别判断曲柄摇杆、双曲柄和双摇杆情形。定位词：格拉霍夫定律、最短杆、机架。",
+    "printedPage": 25,
+    "pdfPage": 34,
+    "locator": "2.3 例2.1，图2.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-06",
+    "kind": "concept",
+    "title": "滚子从动件的运动失真",
+    "summary": "滚子半径须小于凸轮理论廓线外凸部分的最小曲率半径；必要时增大基圆半径。",
+    "printedPage": 46,
+    "pdfPage": 55,
+    "locator": "3.2 运动失真问题",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-07",
+    "kind": "example",
+    "title": "例3.1 对心移动滚子从动件盘形凸轮",
+    "summary": "由实际廓线和滚子半径分析理论廓线；本页是题干起点。",
+    "printedPage": 46,
+    "pdfPage": 55,
+    "locator": "3.3 例3.1 起始处，图3.6(a)见后页",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-08",
+    "kind": "formula",
+    "title": "齿轮公法线长度与跨测齿数",
+    "summary": "Wₖ = (k − 1)p_b + s_b，k 是跨测齿数，p_b 是基圆齿距，s_b 是基圆齿厚。测量时卡尺应接触渐开线齿廓。",
+    "printedPage": 58,
+    "pdfPage": 67,
+    "locator": "图4.3，式（4.1）",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-09",
+    "kind": "example",
+    "title": "例4.1 标准直齿圆柱齿轮",
+    "summary": "由齿数与模数等参数求几何尺寸、中心距和重合度，并区分单齿、双齿啮合区。",
+    "printedPage": 58,
+    "pdfPage": 67,
+    "locator": "4.3 例4.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-10",
+    "kind": "example",
+    "title": "例5.1 定轴轮系与齿条速度",
+    "summary": "先按各齿轮轴线位置识别定轴轮系，再由传动比求输出齿轮转速，最后求齿条线速度和方向。",
+    "printedPage": 75,
+    "pdfPage": 84,
+    "locator": "5.3 例5.1，图5.3",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-11",
+    "kind": "example",
+    "title": "例5.2 行星轮与系杆",
+    "summary": "先找轴线随系杆运动的行星轮，再分出基本周转轮系，分析其余部分。",
+    "printedPage": 75,
+    "pdfPage": 84,
+    "locator": "5.3 例5.2，图5.4",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-12",
+    "kind": "concept",
+    "title": "棘轮机构与槽轮机构",
+    "summary": "棘轮把往复摆动变成单向间歇转动；槽轮利用销轮的连续转动实现间歇转动。",
+    "printedPage": 86,
+    "pdfPage": 95,
+    "locator": "6.2 第1、2项",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-13",
+    "kind": "concept",
+    "title": "螺旋机构与挠性传动",
+    "summary": "该页列有复式螺旋机构，以及带传动、链传动和张紧装置的思考题。",
+    "printedPage": 88,
+    "pdfPage": 97,
+    "locator": "7.3 复习思考题",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-14",
+    "kind": "example",
+    "title": "例8.1 凸轮与连杆的复合式组合",
+    "summary": "辨认五杆基础机构和附加凸轮机构，以滑块给定运动规律设计组合机构。",
+    "printedPage": 91,
+    "pdfPage": 100,
+    "locator": "8.3 例8.1，图8.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-15",
+    "kind": "example",
+    "title": "例9.1 开式链与极坐标平面操作器",
+    "summary": "以移动关节的伸长和转动关节的转角描述末端执行器位置，进行运动学分析。",
+    "printedPage": 99,
+    "pdfPage": 108,
+    "locator": "9.3 例9.1，图9.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-16",
+    "kind": "example",
+    "title": "例10.1 三模块斜面机构的自锁",
+    "summary": "区分由外力驱动的正行程与由重物驱动的反行程，分别建立力平衡条件。",
+    "printedPage": 107,
+    "pdfPage": 116,
+    "locator": "10.3 例10.1，图10.2",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-17",
+    "kind": "example",
+    "title": "例11.1 行星轮系的等效力矩和等效转动惯量",
+    "summary": "取构件1为等效构件，按功率等效换算力矩；在能量换算中同时计入行星轮的自转与质心运动。",
+    "printedPage": 116,
+    "pdfPage": 125,
+    "locator": "11.3 例11.1，图11.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-18",
+    "kind": "concept",
+    "title": "飞轮与周期性速度波动",
+    "summary": "最大盈亏功和平均转速给定时，增大飞轮转动惯量可减小速度波动。",
+    "printedPage": 116,
+    "pdfPage": 125,
+    "locator": "11.3 之前，页首",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-19",
+    "kind": "example",
+    "title": "例12.1 滚筒轴的动平衡",
+    "summary": "根据不平衡质量的轴向和周向位置，对装有皮带轮的滚筒轴进行平衡设计。",
+    "printedPage": 125,
+    "pdfPage": 134,
+    "locator": "12.3 例12.1，图12.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-20",
+    "kind": "concept",
+    "title": "总体方案设计",
+    "summary": "分别考虑执行系统和传动系统的方案，并对备选方案作评价与决策。",
+    "printedPage": 133,
+    "pdfPage": 142,
+    "locator": "13.2 第1项",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-21",
+    "kind": "example",
+    "title": "例14.1 半自动平压模切机",
+    "summary": "从模切机的工艺、行程和阻力入手，开展执行系统方案设计。",
+    "printedPage": 139,
+    "pdfPage": 148,
+    "locator": "14.3 例14.1",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "mp3-22",
+    "kind": "example",
+    "title": "例15.1 原动机选择与传动系统方案",
+    "summary": "承接例14.1，预选电动机、计算总传动比，再拟定传动系统方案。",
+    "printedPage": 152,
+    "pdfPage": 161,
+    "locator": "15.3 例15.1，图15.1",
+    "status": "verified_against_page_image"
+  }
+]

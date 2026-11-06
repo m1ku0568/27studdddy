@@ -12,7 +12,11 @@
     "mechanical-design/confusions.json",
     "textbooks/mechanical-design-10/metadata.json",
     "textbooks/mechanical-design-10/page-index.json",
-    "textbooks/mechanical-design-10/reviewed-items.json"
+    "textbooks/mechanical-design-10/reviewed-items.json",
+    "textbooks/mechanisms-guide-3/metadata.json",
+    "textbooks/mechanisms-guide-3/page-index.json",
+    "textbooks/mechanisms-guide-3/reviewed-items.json",
+    "textbooks/mechanisms-guide-3/exercises.json"
   ],
   "topics": [
     {
@@ -375,5 +379,9 @@
       "sourceType": "4-1 是非题",
       "sourceNumber": 15
     }
-  ]
+  ],
+  "textbooks": {
+    "md10": "textbooks/mechanical-design-10",
+    "mp3": "textbooks/mechanisms-guide-3"
+  }
 }

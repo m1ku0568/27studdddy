@@ -57,3 +57,23 @@ test("scan catalog covers each body page exactly once at chapter level", async (
     assert.ok(item.locator);
   }
 });
+
+test("MP3 example, exercise, answer and scan refer to distinct locations", async () => {
+  const dir = "knowledge-base/textbooks/mechanisms-guide-3";
+  const index = await read(dir + "/page-index.json");
+  const {examples, exercises} = await read(dir + "/exercises.json");
+  assert.equal(index.offset, 9);
+  assert.equal(index.chapters.length, 15);
+  assert.equal(new Set(exercises.map(q => q.number)).size, 68);
+  assert.equal(examples.find(q => q.number === "1.1").pdfPage, 20);
+  assert.equal(exercises.find(q => q.number === "1-1").pdf[0], 25);
+  for (const q of exercises) {
+    assert.deepEqual(q.pdf, q.printed.map(p => p + 9));
+    assert.deepEqual(q.answerPdf, q.answerPrinted.map(p => p + 9));
+    assert.ok(q.printed[0] <= q.stemPrinted && q.stemPrinted <= q.printed[1]);
+  }
+  for (const q of examples) assert.equal(q.pdfPage, q.printedPage + 9);
+  const crosses = exercises.find(q => q.number === "1-7");
+  assert.deepEqual(crosses.pdf, [26, 27]);
+  assert.deepEqual(crosses.answerPdf, [165]);
+});
