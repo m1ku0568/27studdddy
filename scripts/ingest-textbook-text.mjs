@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 const input=process.argv[2];
 if(!input){console.error("Usage: node scripts/ingest-textbook-text.mjs private-textbook-data/md10.txt");process.exit(1);}
-if(!input.endsWith(".txt")){console.error("只接受本地UTF-8 txt文件。请先从可选中文字PDF导出。");process.exit(1);}
+if(!input.endsWith(".txt")){console.error("此入口接受 UTF-8 TXT。扫描 PDF 或逐页 OCR 草稿请运行 python3 scripts/scan-textbook.py --help。");process.exit(1);}
 const text=await readFile(input,"utf8");
 if(!text.trim()) {console.error("文本为空。");process.exit(1);}
 const pages=text.includes("\f")?text.split("\f"):[text];

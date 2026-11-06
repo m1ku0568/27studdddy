@@ -1,0 +1,52 @@
+[
+  {
+    "id": "md10-27-r",
+    "kind": "formula",
+    "title": "应力比（循环特性）",
+    "summary": "r = σ_min / σ_max。分母为非零最大应力；对称循环 r = −1，从零到正峰值的脉动循环 r = 0。",
+    "printedPage": 27,
+    "pdfPage": 38,
+    "locator": "3-1 首段",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "md10-27-max",
+    "kind": "formula",
+    "title": "平均应力、应力幅与最大应力",
+    "summary": "σ_max = σ_m + σ_a，其中 σ_m 表示平均应力，σ_a 表示应力幅。",
+    "printedPage": 27,
+    "pdfPage": 38,
+    "locator": "3-1 图3-2上方",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "md10-77-preload",
+    "kind": "term",
+    "title": "螺纹连接的预紧力",
+    "summary": "装配时拧紧，使连接在承受工作载荷之前先受力。预紧有助于防止接合面出现缝隙或相对滑移。",
+    "printedPage": 77,
+    "pdfPage": 88,
+    "locator": "5-3 首段",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "md10-77-f0",
+    "kind": "formula",
+    "title": "钢制螺栓的预紧力",
+    "summary": "式（5-2）给出一般连接的推荐上限：碳钢 F₀ ≤ (0.6～0.7)σₛA₁，合金钢 F₀ ≤ (0.5～0.6)σₛA₁。σₛ 为屈服极限（MPa），A₁ 为危险截面积（mm²），F₀ 单位为 N。",
+    "printedPage": 77,
+    "pdfPage": 88,
+    "locator": "5-3 式（5-2）及符号说明",
+    "status": "verified_against_page_image"
+  },
+  {
+    "id": "md10-209-gear",
+    "kind": "term",
+    "title": "直齿圆柱齿轮的圆周力与径向力",
+    "summary": "在分度圆处将法向力分解为圆周力和径向力；本节的受力分析忽略啮合齿面间的摩擦力。",
+    "printedPage": 209,
+    "pdfPage": 220,
+    "locator": "10-5 （一）轮齿的受力分析，页下半部",
+    "status": "verified_against_page_image"
+  }
+]

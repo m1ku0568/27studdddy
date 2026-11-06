@@ -26,8 +26,8 @@
     }
   ],
   "totalChapterCount": 18,
-  "chapterTitlesStatus": "not_full_toc_transcribed",
-  "exactPrintedPagesStatus": "not_checked",
+  "chapterTitlesStatus": "see_page_index",
+  "exactPrintedPagesStatus": "body_offset_verified_section_ranges_for_navigation",
   "topicToPart": [
     {
       "part": 1,

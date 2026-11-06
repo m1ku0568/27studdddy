@@ -32,7 +32,28 @@ test("confusions refer to a real topic",()=>{
   for(const c of confuse) assert.ok(topics.some(t=>t.id===c.relatedTopicId));
 });
 test("textbook full text must not be declared available",()=>{
-  assert.equal(metadata.fullTextStatus,"not_provided");
+  assert.equal(metadata.fullTextStatus,"private_scan_with_unreviewed_ocr");
   assert.equal(metadata.ingestedPdfPages,0);
   assert.equal(metadata.exactPrintedPagesVerified,false);
+});
+
+test("scan catalog covers each body page exactly once at chapter level", async () => {
+  const dir = "knowledge-base/textbooks/mechanical-design-10";
+  const catalog = await read(dir + "/page-index.json");
+  const reviewed = await read(dir + "/reviewed-items.json");
+  let next = 3;
+  assert.equal(catalog.chapters.length, 18);
+  for (const {printed:[start,end], sections} of catalog.chapters) {
+    assert.equal(start, next);
+    for (const [,a,b] of sections) assert.ok(start <= a && a <= b && b <= end);
+    next = end + 1;
+  }
+  assert.equal(next, 439);
+  assert.equal(catalog.offset, 11);
+  assert.equal(catalog.pdfPageCount, 454);
+  for (const item of reviewed) {
+    assert.equal(item.status, "verified_against_page_image");
+    assert.equal(item.pdfPage, item.printedPage + catalog.offset);
+    assert.ok(item.locator);
+  }
 });

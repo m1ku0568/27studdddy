@@ -10,7 +10,9 @@
     "mechanical-design/topics.json",
     "mechanical-design/formulas.json",
     "mechanical-design/confusions.json",
-    "textbooks/mechanical-design-10/metadata.json"
+    "textbooks/mechanical-design-10/metadata.json",
+    "textbooks/mechanical-design-10/page-index.json",
+    "textbooks/mechanical-design-10/reviewed-items.json"
   ],
   "topics": [
     {

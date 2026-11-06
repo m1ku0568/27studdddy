@@ -9,12 +9,12 @@
     "isbn": "9787040514216",
     "publicationYear": 2019
   },
-  "fullTextStatus": "not_provided",
+  "fullTextStatus": "private_scan_with_unreviewed_ocr",
   "ingestedPdfPages": 0,
   "ingestedTextChunks": 0,
-  "exactChapterNumbersVerified": false,
+  "exactChapterNumbersVerified": true,
   "exactPrintedPagesVerified": false,
-  "catalogType": "topic_based_provisional_not_original_toc",
+  "catalogType": "scan_toc_navigation",
   "thematicModules": [
     {
       "id": "strength-fatigue",
@@ -101,7 +101,7 @@
       "status": "topic_group_not_verified_chapter_name"
     }
   ],
-  "notes": "出版社、ISBN、五篇十八章结构已核对公开图书信息。教材PDF正文尚未提供，因此真实章节标题、印刷页码、教材公式仍需逐页核实。",
+  "notes": "公开正文及其分块数为 0。私有导入进度由 scan-textbook.py status 从本地数据库统计；目录范围不能证明某页的具体内容。",
   "isbn": "9787040514216",
   "partCount": 5,
   "chapterCount": 18,
@@ -136,5 +136,13 @@
       "url": "https://libnlis.ldu.edu.cn/space/searchDetailLocal/m1fef39334a25db7e0380ecc0dd99eefb",
       "kind": "university_library"
     }
-  ]
+  ],
+  "pageIndex": "page-index.json",
+  "privateArchiveSnapshot": {
+    "readerPageRecords": 454,
+    "nonPlaceholderDraftPages": 447,
+    "bodyRangeDraftPages": 430,
+    "visuallyClassifiedWithoutBodyText": 7,
+    "verifiedItemCount": 5
+  }
 }
