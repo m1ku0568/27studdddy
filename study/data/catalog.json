@@ -1934,7 +1934,7 @@
     {
       "id": "MD-P4-C01",
       "subject": "md",
-      "chapter": null,
+      "chapter": 10,
       "group": "齿轮材料与热处理",
       "title": "20Cr与45钢齿轮硬齿面热处理工艺",
       "detail": "齿轮材料与热处理：20Cr与45钢",
@@ -1949,7 +1949,7 @@
     {
       "id": "MD-P4-C02",
       "subject": "md",
-      "chapter": null,
+      "chapter": 8,
       "group": "带轮直径与张紧",
       "title": "V带小带轮最小基准直径的选取因素",
       "detail": "带轮直径与弯曲应力",
@@ -1964,7 +1964,7 @@
     {
       "id": "MD-P4-C03",
       "subject": "md",
-      "chapter": null,
+      "chapter": 6,
       "group": "平键类型与定位",
       "title": "轴上双平键的周向相隔角度",
       "detail": "双平键的周向布置",
@@ -1979,7 +1979,7 @@
     {
       "id": "MD-P4-C04",
       "subject": "md",
-      "chapter": null,
+      "chapter": 5,
       "group": "螺纹牙型与连接",
       "title": "普通螺纹公称直径及危险截面直径",
       "detail": "螺纹公称直径与危险截面",
@@ -1994,7 +1994,7 @@
     {
       "id": "MD-P4-C05",
       "subject": "md",
-      "chapter": null,
+      "chapter": 6,
       "group": "平键类型与定位",
       "title": "平键截面尺寸标准选取依据",
       "detail": "平键截面尺寸选择",
@@ -2009,7 +2009,7 @@
     {
       "id": "MD-P4-C06",
       "subject": "md",
-      "chapter": null,
+      "chapter": 10,
       "group": "齿轮失效与弯曲接触",
       "title": "标准直齿圆柱齿轮材料及硬度相同时的弯曲应力与接触应力关系",
       "detail": "齿轮接触应力和齿根弯曲应力",
@@ -2024,7 +2024,7 @@
     {
       "id": "MD-P4-C07",
       "subject": "md",
-      "chapter": null,
+      "chapter": 9,
       "group": "链传动多边形效应",
       "title": "链节距p和链轮齿数z对运动不均匀性与动载荷的影响",
       "detail": "链传动多边形效应",
@@ -2039,7 +2039,7 @@
     {
       "id": "MD-P4-C08",
       "subject": "md",
-      "chapter": null,
+      "chapter": 15,
       "group": "轴强度校核",
       "title": "转轴弯扭合成强度公式与循环特性系数α",
       "detail": "转轴弯扭合成",
@@ -2054,7 +2054,7 @@
     {
       "id": "MD-P4-C09",
       "subject": "md",
-      "chapter": null,
+      "chapter": 12,
       "group": "滑动轴承材料与磨损",
       "title": "非液体摩擦滑动轴承pv校核的目的",
       "detail": "滑动轴承pv校核",
@@ -2069,7 +2069,7 @@
     {
       "id": "MD-P4-C10",
       "subject": "md",
-      "chapter": null,
+      "chapter": 5,
       "group": "螺栓预紧与疲劳",
       "title": "受预紧力的紧螺栓总拉力与螺栓和连接件刚度的关系",
       "detail": "紧螺栓总拉力与刚度",
@@ -2084,7 +2084,7 @@
     {
       "id": "MD-P4-C11",
       "subject": "md",
-      "chapter": null,
+      "chapter": 13,
       "group": "轴承润滑与寿命",
       "title": "滚动轴承L10与基本额定动载荷和当量动载荷的关系",
       "detail": "滚动轴承寿命与当量动载荷",
@@ -2099,7 +2099,7 @@
     {
       "id": "MD-P4-C12",
       "subject": "md",
-      "chapter": null,
+      "chapter": 8,
       "group": "带轮直径与张紧",
       "title": "V带减速传动张紧轮的合理位置",
       "detail": "V带张紧轮布置",
@@ -2114,7 +2114,7 @@
     {
       "id": "MD-P4-C13",
       "subject": "md",
-      "chapter": null,
+      "chapter": 11,
       "group": "蜗杆分度圆与效率",
       "title": "普通圆柱蜗杆分度圆直径d1=mq",
       "detail": "蜗杆分度圆直径计算",
@@ -2129,7 +2129,7 @@
     {
       "id": "MD-P4-C14",
       "subject": "md",
-      "chapter": null,
+      "chapter": 10,
       "group": "齿根弯曲强度",
       "title": "齿轮副大小齿轮齿根弯曲疲劳等强度条件",
       "detail": "齿根弯曲等强度",
@@ -2144,7 +2144,7 @@
     {
       "id": "MD-P4-C15",
       "subject": "md",
-      "chapter": null,
+      "chapter": 12,
       "group": "滑动轴承承载",
       "title": "流体动压滑动轴承最小油膜厚度公式及偏心距率",
       "detail": "液体动压滑动轴承最小油膜",
